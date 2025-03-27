@@ -173,7 +173,8 @@ def predict_attrition(n_clicks, *args):
             html.P("This is a simulated prediction. Actual risk assessment requires a trained ML model.")
         ])
     ])
-
+# Expose the Flask server instance for Gunicorn
+server = app.server
 # Run the app
 if __name__ == '__main__':
     app.run(debug=True)
