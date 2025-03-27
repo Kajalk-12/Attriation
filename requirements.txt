@@ -6,3 +6,4 @@ plotly==5.18.0
 numpy==1.26.2
 base64
 io
+gunicorn
